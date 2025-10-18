@@ -59,6 +59,32 @@ npm run preview
   - Career predictions
   - And more!
 
+## Testing
+
+This project includes comprehensive tests to verify functionality:
+
+```bash
+# Run all tests
+npm test
+
+# Run only integration tests (app structure)
+npm run test:integration
+
+# Run only tool function tests (astrology logic)
+npm run test:tools
+
+# Run verification script
+npm run verify
+```
+
+All tests check:
+- ✅ Dependencies are installed correctly
+- ✅ All 12 zodiac signs with Thai translations
+- ✅ 6 astrology tool functions
+- ✅ React components and app structure
+- ✅ State management configuration
+- ✅ Vite and TypeScript configuration
+
 ## Troubleshooting
 
 If you encounter issues:
